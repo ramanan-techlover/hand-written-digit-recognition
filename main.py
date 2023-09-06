@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('train.csv')
+data = pd.read_csv('sample_submission.csv')
 
 data = np.array(data)
 m, n = data.shape
